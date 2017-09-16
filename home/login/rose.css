@@ -1,0 +1,94 @@
+<style type="text/css">
+
+
+.form-style-3{
+    max-width: 450px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-3 label{
+    display:block;
+    margin-bottom: 20px;
+}
+.form-style-3 label > span{
+    float: left;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.form-style-3 fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #FFD2D2;
+    padding: 40px;
+   
+    box-shadow: inset 10px 0px 19px #FFE5E5;
+    -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+    -webkit-box-shadow: inset 2px 2px 15px #FFE5E5;
+	z-index:-1;
+	opacity:05;
+}
+.form-style-3 fieldset legend{
+    
+    padding: 0px 40px 3px 8px;
+    box-shadow: -0px -1px 2px #F1F1F1;
+    -moz-box-shadow:-0px -1px 2px #F1F1F1;
+    -webkit-box-shadow:-0px -1px 2px #F1F1F1;
+    font-weight: normal;
+    font-size: 0px;
+}
+.form-style-3 textarea{
+    width:250px;
+    height:100px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select, 
+.form-style-3 textarea{
+	color:#fff;
+opacity :1;
+filter: alpha(opacity=80);   
+   border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid pink;
+    outline: none;
+    font-size:19pt;
+	color: white;
+    padding: 5px 35px 5px 30px;
+    box-shadow: inset 4px 4px 4px #FFD5E7;
+    -moz-box-shadow: inset 1px 1px 4px pink;
+    -webkit-box-shadow: inset 1px 1px 4px pink;
+    background:#A05229;
+    width:50%;
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+    background: #EB3988;
+    border: 1px solid #C94A81;
+    padding: 5px 15px 5px 15px;
+    color: #FFCBE2;
+    box-shadow: inset -11px -1px 3px #FF62A7;
+    -moz-box-shadow: inset -1px -1px 3px #FF62A7;
+    -webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;    
+    font-weight: bold;
+}
+.required{
+	text-color:white;
+    color:red;
+    font-weight:normal;
+}
+</style>
